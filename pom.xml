@@ -38,10 +38,11 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.0</version>
+				<version>3.3.9</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<executable>/opt/jdk1.8.0_121/bin/javac</executable>
 				</configuration>
 			</plugin>
 			<plugin>
